@@ -25,10 +25,10 @@ other contributors to USRBG.
   left:var(--usrbg-modal-y-offset);
   width:var(--usrbg-modal-width);
   height: var(--usrbg-modal-height);
-  opacity:5;
+  opacity: .5;
   pointer-events:none;
   background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent 80%);
+  -webkit-mask: linear-gradient(black, transparent 10%);
 }
 
 .headerInfo-30uryT,
