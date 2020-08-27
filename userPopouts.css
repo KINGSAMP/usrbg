@@ -25,7 +25,7 @@ other contributors to USRBG.
 	z-index: -1;
 	pointer-events: none;
 	opacity: .5;
-	background-size: cover;
+	background-size: fill;
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
 	background-image: var(--user-background);
