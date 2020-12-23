@@ -1,14 +1,3 @@
-/*
-USRBG Popouts by Tropix126.
-===========================================
-Please note that this snippet requires basic
-transparency on the user popout in order for
-the background to be fully visible.
-
-You are allowed to use this in your theme
-without prior permission from me or any
-other contributors to USRBG.
-*/
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
 .reduce-motion .userPopout-3XzG_A {
@@ -25,7 +14,7 @@ other contributors to USRBG.
 	z-index: -1;
 	pointer-events: none;
 	opacity: .5;
-	background-size: cover;
+	background-size: fit;
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
 	background-image: var(--user-background);
